@@ -1,6 +1,6 @@
 # video_image_technologies_website
 
-- My company website deployed at -
+- My company website deployed at - https://video-image-technologies-website.vercel.app/
 
 ### Table of Contents
 
@@ -33,7 +33,7 @@ You're sections headers will be used to reference location of destination.
 
 ## How To Use
 
-01.\Simple click the link and contach me - 
+01.\Simple click the link and contach me - https://video-image-technologies-website.vercel.app/
 Hope you enjoy!
 
 #### Installation
