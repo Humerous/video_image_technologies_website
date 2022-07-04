@@ -46,6 +46,10 @@ body {
 
 /* ALL CLASSES */
 
+.email-link{
+  margin-top:10px;
+}
+
 a {
     color: #44d9e6;
     text-decoration: none;
@@ -147,7 +151,7 @@ ul.nav {
 .footer-menu {
   text-align: center;
   background-color: #44d9e6;
-  padding: 30px;
+  padding: 30px 0 20px 0;
 }
 
 .article5-footer {
