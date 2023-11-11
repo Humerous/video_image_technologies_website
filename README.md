@@ -1,10 +1,10 @@
-# video_image_technologies_website
+# Video Image Technologies Website (Legency Version)
 
 - My company website deployed at - https://video-image-technologies-website.vercel.app/
 
 ### Table of Contents
 
-You're sections headers will be used to reference location of destination.
+Your section headers will be used to reference the location of the destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
@@ -17,8 +17,8 @@ You're sections headers will be used to reference location of destination.
 ## Description
 
 - This is my company website that services the South African film and media industry. 
-- It was build using HTML-CSS-JS-BOOTSRAP3. It's my very first every published site. 
-- Hope you like it as much as I did building the site.
+- It was built using HTML-CSS-JS-BOOTSRAP3. It's my very first ever published site. 
+- I Hope you like it as much as I did building the site.
 
 #### Technologies
 
@@ -34,11 +34,11 @@ You're sections headers will be used to reference location of destination.
 ## How To Use
 
 01._ Simple click the link and contact me - https://video-image-technologies-website.vercel.app/
-Hope you enjoy!
+Hope you enjoy it!
 
 #### Installation
 
-01.\_Download the zip repository .
+01.\_Download the zip repository.
 02.\_Unzip
 03.\_CD REACT-HIT-MISS-APP
 03.\_NPM INSTALL
@@ -59,7 +59,7 @@ Hyperion Development Bootcamp
 
 MIT License
 
-Copyright (c) [2022][david k miller]
+Copyright (c) [2023][david k miller]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
