@@ -1,31 +1,20 @@
-/* Heading styles */
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-
+  padding-top: 65px;
+  margin: 0 auto;
 }
 
-h2,
-h3 {
-  font-family: 'Arvo', courier, serif;
-  font-weight: bolder;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  padding: 5px;
+/* ALL IDS */
+
+#quotes {
+  text-align: center;
+  font-weight: 300;
+  color: #44d9e6;
 }
 
-hr {
-  border-color: #44d9e6;
-  width: 130px;
-  margin-top: 15px;
+#services-equipment {
+  font-weight: 200;
 }
 
-ul.nav {
-  font-family: 'Arvo', courier, serif;
-  color: #fff;
-  font-size: 13px;
-}
-/* ID  */
 #summary {
   padding: 10px 50px;
   margin-bottom: 10px;
@@ -36,7 +25,10 @@ ul.nav {
   width: 100%;
 }
 
-#article2,
+#article2 {
+  background-color: #f5f5f5;
+}
+
 #article3 {
   background-color: #f5f5f5;
 }
@@ -54,13 +46,15 @@ ul.nav {
 /* ALL CLASSES */
 
 .row-padding {
-  padding: 70px;
+  padding: 75px;
 }
 
-.navbar-inverse,
-.navbar-nav ul li a {
+.navbar-inverse {
   background-color: #44d9e6;
   padding: 8px;
+}
+
+.navbar-inverse .navbar-nav li a {
   color: #fff;
 }
 
@@ -83,12 +77,38 @@ ul.nav {
   font-size: 15px;
 }
 
+.company-info h2,
+h3 {
+  font-family: 'Arvo', courier, serif;
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.company-info hr {
+  border-color: #44d9e6;
+  width: 130px;
+  margin-top: 15px 15px;
+}
+
+ul.nav,
+.jumbotron h1 {
+  font-family: 'Arvo', courier, serif;
+  color: #fff;
+}
+
+ul.nav {
+  font-size: 13px;
+}
+
 .jumbotron {
   text-align: center;
-  background-image: url('../images/film.jpg');
+  background-image: url('/assets/images/film.webp');
   background-size: cover;
   background-position: center;
-  color: #fff;
+  color: white;
+  margin: 0 auto;
 }
 
 .jumbotron img {
@@ -108,8 +128,8 @@ ul.nav {
 
 .btn-lg {
   font-size: 20px;
-  color: #fff;
   background-color: #44d9e6;
+  color: #fff;
 }
 
 .btn-default:hover {
@@ -126,4 +146,79 @@ ul.nav {
 .article5-footer {
   background-color: #fff;
   padding: 30px;
+}
+
+/* Responsive Mdeia */
+
+@media (max-width: 1199px) {
+  ul.nav {
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  #nav-logo {
+    width: 365px;
+    position: relative;
+    left: 185px;
+  }
+
+  ul.nav {
+    position: relative;
+    right: 115px;
+  }
+
+  .jumbotron h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  #nav-logo {
+    width: 365px;
+    position: relative;
+    left: 155px;
+  }
+}
+@media (max-width: 767px) {
+  #nav-logo {
+    width: 50%;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+  }
+  .jumbotron p {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .jumbotron h1 {
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .btn-lg {
+    font-size: 14px;
+    background-color: #44d9e6;
+    color: #fff;
+  }
+
+  #quotes {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: #44d9e6;
+  }
+}
+@media (max-width: 467px) {
+  #nav-logo {
+    width: 65%;
+    position: absolute;
+    top: 17px;
+  }
 }
