@@ -2,7 +2,7 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  margin: 0 auto;
+
 }
 
 h2,
@@ -89,7 +89,6 @@ ul.nav {
   background-size: cover;
   background-position: center;
   color: #fff;
-  margin: 0 auto;
 }
 
 .jumbotron img {
