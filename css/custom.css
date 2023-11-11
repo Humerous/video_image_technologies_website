@@ -1,0 +1,224 @@
+body {
+  padding-top: 65px;
+  margin: 0 auto;
+}
+
+/* ALL IDS */
+
+#quotes {
+  text-align: center;
+  font-weight: 300;
+  color: #44d9e6;
+}
+
+#services-equipment {
+  font-weight: 200;
+}
+
+#summary {
+  padding: 10px 50px;
+  margin-bottom: 10px;
+}
+
+#hr-line {
+  border-color: #44d9e6;
+  width: 100%;
+}
+
+#article2 {
+  background-color: #f5f5f5;
+}
+
+#article3 {
+  background-color: #f5f5f5;
+}
+
+#email-signature {
+  width: 450px;
+}
+
+#nav-logo {
+  width: 365px;
+  position: relative;
+  bottom: 10px;
+}
+
+/* ALL CLASSES */
+
+.row-padding {
+  padding: 80px;
+}
+
+.navbar-inverse {
+  background-color: #44d9e6;
+  padding: 8px;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #fff;
+}
+
+.fa-stack {
+  color: #44d9e6;
+}
+
+.quote-font-size {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.our-vision {
+  font-weight: bold;
+}
+
+.company-info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.company-info h2,
+h3 {
+  font-family: 'Arvo', courier, serif;
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.company-info hr {
+  border-color: #44d9e6;
+  width: 130px;
+  margin-top: 15px 15px;
+}
+
+ul.nav,
+.jumbotron h1 {
+  font-family: 'Arvo', courier, serif;
+  color: #fff;
+}
+
+ul.nav {
+  font-size: 13px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url('/assets/images/film.webp');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.jumbotron img {
+  width: 135px;
+  height: 135px;
+}
+
+.jumbotron h1 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.jumbotron p {
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+
+.btn-lg {
+  font-size: 20px;
+  background-color: #44d9e6;
+  color: #fff;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #44d9e6;
+}
+
+.footer-menu {
+  text-align: center;
+  background-color: #44d9e6;
+  padding: 30px;
+}
+
+.article5-footer {
+  background-color: #fff;
+  padding: 30px;
+}
+
+/* Responsive Mdeia */
+
+@media (max-width: 1199px) {
+  ul.nav {
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  #nav-logo {
+    width: 365px;
+    position: relative;
+    left: 185px;
+  }
+
+  ul.nav {
+    position: relative;
+    right: 115px;
+  }
+
+  .jumbotron h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  #nav-logo {
+    width: 365px;
+    position: relative;
+    left: 155px;
+  }
+}
+@media (max-width: 767px) {
+  #nav-logo {
+    width: 50%;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+  }
+  .jumbotron p {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .jumbotron h1 {
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .btn-lg {
+    font-size: 14px;
+    background-color: #44d9e6;
+    color: #fff;
+  }
+
+  #quotes {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: #44d9e6;
+  }
+}
+@media (max-width: 467px) {
+  #nav-logo {
+    width: 65%;
+    position: absolute;
+    top: 17px;
+  }
+}
